@@ -14,7 +14,7 @@ export type PostMeta = {
   draft?: boolean;
 };
 
-const postsDir = path.join(process.cwd(), "content", "posts");
+const postsDir = path.join(process.cwd(), "public", "content", "posts");
 
 export function getPostSlugs(): string[] {
   if (!fs.existsSync(postsDir)) {
