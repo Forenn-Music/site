@@ -1,6 +1,20 @@
 import type { Metadata } from "next";
+import { Quattrocento, Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
+
+const quattrocento = Quattrocento({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-display',
+  display: 'swap',
+});
+
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-sans',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: "Forenn - Memories Persist In Echoes",
@@ -40,7 +54,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased min-h-screen flex flex-col">
+      <body className={`${quattrocento.variable} ${inter.variable} antialiased min-h-screen flex flex-col`}>
         <main className="flex-1">
           {children}
         </main>

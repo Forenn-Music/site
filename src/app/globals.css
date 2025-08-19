@@ -1,11 +1,8 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Quattrocento:ital,wght@0,400;0,700;1,400&display=swap');
 
 :root {
   --background: #FEFCF5;
   --foreground: #0E0F12;
-  --font-sans: 'Neue Haas Grotesk Text Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-display: 'Quattrocento', serif;
   --color-off-white: #FEFCF5;
   --color-off-black: #0E0F12;
   --color-off-white-tertiary: #9B9581;
