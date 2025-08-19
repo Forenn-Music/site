@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/copy-content.js",
+    "prebuild": "echo 'Skipping content copy for now'",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
