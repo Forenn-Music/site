@@ -30,4 +30,3 @@ Thumbs.db
 .gitignore
 
 # Content source (will be copied during build)
-content
